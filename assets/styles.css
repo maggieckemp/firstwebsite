@@ -46,6 +46,8 @@ body {
   font-family: var(--font-family);
 }
 
+
+/* Navigation Bar  */
 nav {
     position: sticky;
     top: 0;
@@ -89,7 +91,7 @@ nav {
   }
 
 
-
+/* Hero Section */
   .hero {
     display: flex;
     align-items: center;
@@ -121,6 +123,7 @@ nav {
   }
 
 
+/* More About */
   .more-about {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
@@ -135,6 +138,7 @@ nav {
     line-height: var(--line-height);
     padding: 0.4rem;
   }
+
 
 /* Skills */
 .container {
@@ -208,6 +212,8 @@ nav {
     margin-bottom: 2.5rem;
   }
 
+
+  /* Contact Me */
   .contact {
     margin-top: 2rem;
   }
@@ -265,6 +271,9 @@ nav {
     border: 2px solid var(--primary-color);
     cursor: pointer;
   }
+
+
+  /* Footer */
   footer {
     background-color: var(--bg-color);
     padding: 1.25rem;
@@ -273,6 +282,7 @@ nav {
   }
 
 
+/* Scroll Up */
   .scroll-up {
     position: fixed;
     right: 0.5%;
@@ -287,7 +297,11 @@ nav {
 
 
 
-  
+
+
+
+
+  /* Mobile Responsiveness */
   @media screen and (max-width: 720px) {
     /*changes reflects on screen with a width of 720px and below*/
   
